@@ -1,5 +1,5 @@
-# dupcheck
-dupcheck is a lightweight command-line tool for identifying duplicate hostnames, IP addresses, and short-name collisions in target lists commonly used for vulnerability scanning, asset inventories, and infrastructure assessments.
+dupcheck
+dupcheck.py is a lightweight command-line tool for identifying duplicate hostnames, IP addresses, and short-name collisions in target lists commonly used for vulnerability scanning, asset inventories, and infrastructure assessments.
 
 The tool supports mixed input formats (hostnames, IPv4, IPv6), handles case-insensitive hostname comparisons, canonicalizes IP addresses, and detects short-name collisions (e.g., host vs host.domain.local) by default. It works with both comma-separated files and line-by-line lists, making it ideal for cleaning Nessus targets, nmap input files, CMDB exports, and manually maintained inventories.
 
